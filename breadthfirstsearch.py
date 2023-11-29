@@ -33,7 +33,6 @@
 
 import collections
 
-
 class Node :
     def __init__(self, data):
         self.left = None
@@ -60,7 +59,7 @@ def makeList(r) :
         return d
 
 def bfs(al) :
-    queue = collections. deque('b')
+    queue = collections. deque(['b'])
     # visited list
     visited = []
 
@@ -68,7 +67,9 @@ def bfs(al) :
         node = queue.popleft()
         visited.append(node) 
         # This is list comprehension
-        [queue.append(x) for x in al[node]] # or can write for x in al[node]: queue.append(x)
+        # [queue.append(x) for x in al[node]] # or can write for x in al[node]: queue.append(x)
+        #or this is more correct:
+        queue.extend(al[node])
     print(visited)
         
 
