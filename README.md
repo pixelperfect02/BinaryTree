@@ -9,3 +9,4 @@ BFS :
 <img width="888" alt="Screenshot 2023-11-29 at 11 14 39 am" src="https://github.com/pixelperfect02/Trees/assets/50592586/06562d9f-8e31-4a13-9390-7b17d1f2f040">
 
 DFS :
+<img width="975" alt="Screenshot 2023-11-29 at 12 43 43 pm" src="https://github.com/pixelperfect02/Trees_in_Python/assets/50592586/412fb8a9-3a82-4b68-b871-d9f7c7112a06">
